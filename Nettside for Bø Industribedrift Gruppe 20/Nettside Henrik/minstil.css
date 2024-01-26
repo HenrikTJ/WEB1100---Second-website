@@ -1,0 +1,181 @@
+
+html, 
+
+body {
+  height:101%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+}
+
+html {
+  background: url('https://www.bouygues-es.fr/sites/france/files/styles/image_background/public/2017-10/genie-climatique.jpg?itok=pQxsosil') fixed;
+  background-size: 128%;
+  color:rgba(0, 204, 255)
+}
+
+
+div {
+  overflow: hidden;
+}
+
+a {
+  color: #00CED1;
+  text-decoration: underline;
+  transition: 500ms;
+}
+  
+a:hover {
+  color: #26a1ff;
+}
+
+p {
+  padding: 0 5%;
+}
+
+img {
+  box-shadow: 0px 0px 4px #000;
+}
+
+#header {
+  background: rgba(0, 77, 64, .5);
+  padding: 1%;
+  overflow: hidden;
+height: 55px;
+}
+  
+  
+#header img {
+  float: left;
+  box-shadow: none; 
+}
+  
+#header ul {
+  list-style: none;
+  float: right;
+  padding-right: 10px;
+  margin-top: 0px;
+}
+  
+#header ul div {
+  float: right;
+  margin-right: 40px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: white;
+}
+  
+.topnav {
+  overflow: hidden;
+  background-color: #;
+}
+
+.topnav a {
+  float: left;
+  color: White;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: White;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #;
+  color: white;
+}
+  
+#header h7 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: white;}
+
+.fullscreen {
+  height: 95%;
+  position: relative;}
+  
+.fullscreen .header {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #00CED1;
+  text-shadow: 0px 0px 2px #000;}
+
+.white {
+  background: #00CED1;
+  padding: 0 5%;}
+  
+.nobg {
+  background: none;
+  padding: 0 5%;
+  color: #00CED1;
+  text-shadow: rgba(102, 204, 255, .5);}
+  
+.semitrans {
+  background: rgba(102, 204, 255, .5);
+  padding: 0 5%;}
+  
+.dark {
+  color: #00CED1;
+  background: #010105;
+  padding: 0 5%;}
+
+.nopadding {
+  padding: 0;}
+
+.floatleft {
+  float: left;
+  margin: 2%;}
+  
+.floatright {
+  float: right;
+  margin 2%;}
+
+.more {
+  text-align: center;
+  font-size: 17px;}
+  
+.more a {
+  color: #aaa;
+  text-decoration: non	e;
+  cursor: pointer;}
+  
+.more a:hover {
+  color: #777;}
+  
+  
+  
+ .div a:hover  {
+  color: white;}
+	  
+  }
+  
+  h1 {
+	  color: #00CED1
+  }
+  
+  h2 {
+	  color: #00CED1	  
+ }
+  
+   
+  
+  h7 {
+	float: right;
+  margin-right: 10px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: White;
+ }
+		
+
+.center {
+	font-size: 32px;
+	color: #00CED1
+}

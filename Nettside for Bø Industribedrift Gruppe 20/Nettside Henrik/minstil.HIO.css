@@ -1,0 +1,157 @@
+
+html, 
+
+body {
+  height:101%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+}
+
+html {
+  background-image: url('https://www.bouygues-es.fr/sites/france/files/styles/image_background/public/2017-10/genie-climatique.jpg?itok=pQxsosil');
+  background-size: 128%;
+  color:rgba(0, 204, 255);
+}
+
+
+
+a {
+  color: #00CED1;
+  text-decoration: underline;
+  transition: 500ms;
+}
+  
+a:hover {
+  color: #26a1ff;
+}
+
+p {
+  padding: 0 5%;
+}
+
+
+.more a {
+  color: #aaa;
+  text-decoration: non	e;
+  cursor: pointer;
+}
+  
+.more a:hover {
+  color: #777;
+}
+
+  
+ .div a:hover  {
+  color: white;
+}
+
+
+.topnav {
+	overflow:hidden;
+	background-color: #;
+}
+
+.topnav a {
+  float: left;
+  color: White;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: White;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #;
+  color: white;
+}
+
+
+#header{
+  background: rgba(0, 77, 64, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+<!--bakgrunnen bak tanghjulet, om oss, hjem-->
+}
+  
+#header img{
+  float: left;
+  box-shadow: none; 
+  <!--Tanghjulet posisjon-->
+}
+  
+#header ul{
+  list-style: none;
+  float: right;
+  padding-right: 10px;
+  margin-top: 0px;
+ <!--posisjon til om oss, hjem-->
+ }
+  
+#header ul div {
+  float: right;
+  margin-right: 40px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: white;
+ 
+ }
+  
+  
+#header h7{
+  float: left;
+  margin-left: 10px;
+  margin-top: 14px;    
+  font-size: 20px;
+  color: White;
+  <!--bø industribedrift overskrift-->
+}
+.fullscreen{
+  height: 135%;         
+  position: relative;
+  <!--NR 1 og NR 2 sammen-->
+}
+
+  .white {
+  background: #00CED1;
+  padding: 0 5%;
+  
+  
+  }
+.overskrift{
+  position: absolute;
+  text-align: center; 
+  width: 100%;  
+  color:#00ced1;
+  text-shadow: 0px 0px 2px #000;
+  <!--Kontor-rekvisa og kaffe overskrift NR 2-->
+}
+ 
+.bakgrunn{
+  background: rgba(0, 77, 64, .5);            
+  color:#00ced1;
+  height: 200%;
+  margin-top: -0px; 
+  <!--Teksten under overskriften-->
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+
+ 
+

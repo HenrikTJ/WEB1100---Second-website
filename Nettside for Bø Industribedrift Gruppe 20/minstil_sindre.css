@@ -1,0 +1,186 @@
+
+html, body {
+  height:100%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+}
+
+html {
+  background: url('genie-climatique.jpg') fixed;
+  background-size: 125%;
+  color:rgba(0, 204, 255);
+ 
+}
+
+div {
+  overflow: hidden;}
+
+a {
+  display: block;
+  color: #00CED1;
+  text-decoration: none ;
+  transition: 500ms;
+  }
+  
+a:hover {
+   background-color:#00CED1;
+   color: black;
+   display: block;
+   padding: 0.1px 0.1px;
+   height: 100% ;
+   text-transform:static;
+}
+
+p {
+  padding: 0 5%;}
+
+img {
+  box-shadow: 0px 0px 4px #000;}
+
+#header {
+  background: rgba(0, 77, 64, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+  
+}
+  
+#header img {
+  float: left;
+  box-shadow: none; }
+  
+#header ul {
+  list-style: none;
+  float: right;
+  padding-right: 10px;
+  margin-top: 0px;}
+  
+#header ul li {
+  float: right;
+  margin-right: 10px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: White;}
+  
+#header h7 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: White;}
+
+.fullscreen {
+  height: 95%;
+  position: relative;}
+  
+  .lykke {
+	  color: #00CED1
+  }
+  
+  
+  .topnav {
+  overflow: hidden;
+  background-color: #;
+}
+
+.topnav a {
+  float: left;
+  color: White;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color:#00CED1;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #;
+  color: white;
+}
+  
+.fullscreen .header {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #00CED1;
+  text-shadow: 0px 0px 2px #000;}
+	
+.white {
+  background: #00CED1;
+  padding: 0 5%;}
+
+
+
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 600px ;
+  overflow:hidden;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px)
+ {
+  .column {
+    width: 100%;
+  }
+}
+	
+  .semitrans1 {
+  background: rgba(0, 77, 64, .5);
+
+  }
+
+  .semitrans2 {
+  background: rgba(0, 102, 85, .8);
+
+  }
+
+  .semitrans3 {
+  background: rgba(0, 102, 85, .8);
+
+  }
+
+
+
+
+
+  h1 {
+	  color: #00CED1
+  }
+  
+  h2 {
+	  color: #00CED1
+	  
+  }
+  
+  h3 {
+	  margin-top: 10%;
+	  text-align: center;
+	  
+  }
+  
+  
+	h7 {
+	float: right;
+  margin-right: 10px;
+  margin-top: 14px;
+  font-size: 20px;
+  color: White;}
+		}
+
+ }
